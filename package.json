@@ -11,7 +11,7 @@
   "dependencies": {
     "@react-navigation/native": "^6.1.17",
     "@react-navigation/native-stack": "^6.9.26",
-    "expo": "~50.0.17",
+    "expo": "^51.0.1",
     "expo-status-bar": "~1.11.1",
     "i": "^0.3.7",
     "nativewind": "^2.0.11",
