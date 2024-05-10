@@ -11,7 +11,10 @@ const Categories = () => {
             `*[_type == "category"]`
         ).then((data) => {
             setCategories(data)
-        })
+        }).catch(error => {
+            // Handle any errors
+            console.error('Error fetching data:', error);
+        });
     }, []);
 
 

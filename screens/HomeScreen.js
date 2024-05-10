@@ -37,7 +37,10 @@ const HomeScreen = () => {
                 }`
             ).then((data) => {
                 setFeaturedCategories(data)
-            })
+            }).catch(error => {
+            // Handle any errors
+            console.error('Error fetching data:', error);
+            });
     }, [])
 
 
