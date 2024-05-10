@@ -27,12 +27,38 @@ const FeaturedRow = ({title,description}) => {
                 imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
                 title='Yo! Sushi'
                 rating={4.5}
-                genre=''
-                address=''
-                short_description=''
-                dishes=''
-                long=''
-                lat=''
+                genre='Japanese'
+                address='123 Main St'
+                short_description='Test Description'
+                dishes={[]}
+                long={20}
+                lat={0}
+            />
+            
+            <RestaurantCard 
+                id={123}
+                imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
+                title='Yo! Sushi'
+                rating={4.5}
+                genre='Japanese'
+                address='123 Main St'
+                short_description='Test Description'
+                dishes={[]}
+                long={20}
+                lat={0}
+            />
+            
+            <RestaurantCard 
+                id={123}
+                imgUrl='https://media-cdn.tripadvisor.com/media/photo-s/19/3b/00/06/sushi-place.jpg'
+                title='Yo! Sushi'
+                rating={4.5}
+                genre='Japanese'
+                address='123 Main St'
+                short_description='Test Description'
+                dishes={[]}
+                long={20}
+                lat={0}
             />
         </ScrollView>
     </View>
