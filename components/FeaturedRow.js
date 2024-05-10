@@ -30,7 +30,7 @@ const FeaturedRow = ({id ,title,description}) => {
             // Handle any errors
             console.error('Error fetching data:', error);
         });
-    }, []);
+    }, [id]);
     
   return (
     <View>
