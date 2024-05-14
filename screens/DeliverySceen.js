@@ -63,7 +63,6 @@ const DeliverySceen = () => {
             title={restaurant.title}
             description={restaurant.short_description}
             identifier='origin'
-            pinColor='#00CCBB'
         />
       </MapView>
 
